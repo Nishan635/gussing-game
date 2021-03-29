@@ -37,3 +37,14 @@ input:focus {
 	background-color: rgba(0,45,45,0.8);
 	color: white;
 }
+
+#guessField {
+	width: 100%;
+}
+
+@media screen and (max-width: 542px) {
+	.guessField,
+	.guessSubmit {
+		margin-top: 10px;
+	}
+}
