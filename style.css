@@ -31,6 +31,7 @@ input:focus {
 .guessSubmit {
 	background-color: rgba(0,45,45,0.3);
 	cursor: pointer;
+	margin-top: 10px;
 }
 
 .guessSubmit:hover {
@@ -39,7 +40,16 @@ input:focus {
 }
 
 #guessField {
-	width: 100%;
+	border: 1px solid rgba(0,0,0,0.4);
+	padding: 10px 8px;
+	margin-top: 10px;
+	width: 80%;
+	border-radius: 5px;
+}
+
+#guessField:focus {
+	border: 1px solid rgba(0,0,0,0.6);
+
 }
 
 @media screen and (max-width: 542px) {
